@@ -1,154 +1,151 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
 }
 
 body {
-    width: 1280px;
-    height: 720px;
-    background: #121212;
-    /*background: #dbd3d3;*/
-    border: 0;
-    padding: 0;
-    font-family: SF UI Display, sans-serif;
+	width: 1280px;
+	height: 720px;
+	background: #121212;
+	/*background: #dbd3d3;*/
+	border: 0;
+	padding: 0;
+	font-family: SF UI Display, sans-serif;
 }
 
 header {
-    background: rgba(26, 26, 26, 0.80);
+	background: rgba(26, 26, 26, 0.8);
 
-    backdrop-filter: blur(10px);
-    width: 100%;
-    height: 48px;
-    display: flex
+	backdrop-filter: blur(10px);
+	width: 100%;
+	height: 48px;
+	display: flex;
 }
 
 header #headerLogo {
-    width: 24px;
-    height: 24px;
-    margin-top: 12px;
-    margin-left: 64px;
-
-
+	width: 24px;
+	height: 24px;
+	margin-top: 12px;
+	margin-left: 64px;
 }
 
 header #headerName {
-    color: #F6BD41;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 14px;
-    margin-left: 8px;
+	color: #f6bd41;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 14px;
+	margin-left: 8px;
 }
 
 h1 {
-    color: #FFF;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 64px;
-    margin-top: 31px;
+	color: #fff;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 64px;
+	margin-top: 31px;
 }
 
 /* script */
 
 .container-cover-header {
-    margin-top: 53px;
-    margin-left: 100px;
+	margin-top: 53px;
+	margin-left: 100px;
 }
 
 .cover-header {
-    margin-top: 0px;
-    margin-left: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
 }
 
 .container-header {
-    margin-top: -130px;
-    margin-left: 294px;
+	margin-top: -130px;
+	margin-left: 294px;
 }
 
 h2 {
-    color: #FFF;
+	color: #fff;
 
-    font-family: SF UI Display;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+	font-family: SF UI Display;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 }
 
 .common-name {
-    width: 45px;
-    height: 24px;
-    font-size: 14px;
-    font-weight: 500;
+	width: 45px;
+	height: 24px;
+	font-size: 14px;
+	font-weight: 500;
 }
 
 .title-header {
-    width: 200px;
-    height: 36px;
+	width: 200px;
+	height: 36px;
 }
 
 .total-tracks {
-    color: #8A8A8A;
-    width: 200px;
-    height: 24px;
-    font-size: 14px;
-    line-height: normal;
+	color: #8a8a8a;
+	width: 200px;
+	height: 24px;
+	font-size: 14px;
+	line-height: normal;
 }
 
 .total-duration {
-    color: #8A8A8A;
-    width: 200px;
-    height: 24px;
-    font-size: 14px;
-
+	color: #8a8a8a;
+	width: 200px;
+	height: 24px;
+	font-size: 14px;
 }
 
 .list-of-artists {
-    color: #FFF;
-    width: 304px;
-    height: 24px;
-    font-size: 16px;
+	color: #fff;
+	width: 304px;
+	height: 24px;
+	font-size: 16px;
 }
 
 .comment-for-List {
-    color: #8A8A8A;
-    width: 304px;
-    height: 24px;
-    font-size: 16px;
+	color: #8a8a8a;
+	width: 304px;
+	height: 24px;
+	font-size: 16px;
 }
 
 .track {
-    width: 480px;
-    margin-left: 100px;
-    margin-top: 24px;
+	width: 480px;
+	margin-left: 100px;
+	margin-top: 24px;
 }
 
 .name {
-    color: #FFF;
-    font-family: SF UI Display;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+	color: #fff;
+	font-family: SF UI Display;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
 }
 
 .nameTitle {
-    color: #8A8A8A;
-    font-family: SF UI Display;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+	color: #8a8a8a;
+	font-family: SF UI Display;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 .audioTrack {
-    color: rgb(241, 228, 228);
-    width: 347px;
-    height: 24px;
-    border-radius: 4px;
-    background-color: #181717;
+	color: rgb(241, 228, 228);
+	width: 347px;
+	height: 24px;
+	border-radius: 4px;
+	background-color: #181717;
 }
